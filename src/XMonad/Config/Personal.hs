@@ -1,10 +1,8 @@
 
 module XMonad.Config.Personal
-  ( foo
-  , mkSRDL
+  ( module XMonad.Config.ScratchpadHost
+  , module XMonad.Config.ScreenRatioDependentLayout
   ) where
 
-import XMonad.Config.ScreenRatioDependentLayout (mkSRDL)
-
-foo :: Integer
-foo = 123
+import           XMonad.Config.ScratchpadHost
+import           XMonad.Config.ScreenRatioDependentLayout

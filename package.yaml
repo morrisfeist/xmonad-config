@@ -16,7 +16,9 @@ ghc-options:
 
 dependencies:
   - base > 4.18
+  - containers
   - xmonad
+  - xmonad-contrib
 
 library:
   source-dirs: src
@@ -24,3 +26,4 @@ library:
     - XMonad.Config.Personal
   other-modules:
     - XMonad.Config.ScreenRatioDependentLayout
+    - XMonad.Config.ScratchpadHost

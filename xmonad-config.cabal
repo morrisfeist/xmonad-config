@@ -15,10 +15,13 @@ library
       XMonad.Config.Personal
   other-modules:
       XMonad.Config.ScreenRatioDependentLayout
+      XMonad.Config.ScratchpadHost
   hs-source-dirs:
       src
   ghc-options: -Wall -Wcpp-undef -Werror -Widentities -Wincomplete-uni-patterns -Wincomplete-record-updates -Wpartial-fields -Wredundant-constraints -Wunused-packages
   build-depends:
       base >4.18
+    , containers
     , xmonad
+    , xmonad-contrib
   default-language: GHC2021
