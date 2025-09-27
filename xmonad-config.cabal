@@ -12,11 +12,11 @@ build-type:     Simple
 
 library
   exposed-modules:
-      XMonad.Config.Personal
+      XMonad.MyLib
   other-modules:
-      XMonad.Config.ScreenRatioDependentLayout
-      XMonad.Config.ScratchpadHost
-      XMonad.Config.ShiftFirstHalf
+      XMonad.MyLib.ScreenRatioDependentLayout
+      XMonad.MyLib.ScratchpadHost
+      XMonad.MyLib.ShiftFirstHalf
   hs-source-dirs:
       src
   ghc-options: -Wall -Wcpp-undef -Werror -Widentities -Wincomplete-uni-patterns -Wincomplete-record-updates -Wpartial-fields -Wredundant-constraints -Wunused-packages

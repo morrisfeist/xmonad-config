@@ -1,6 +1,7 @@
 {-# LANGUAGE LambdaCase   #-}
 {-# LANGUAGE ViewPatterns #-}
-module XMonad.Config.ScratchpadHost
+
+module XMonad.MyLib.ScratchpadHost
   ( AppCommand
   , AppMatch (..)
   , ScratchpadApp (..)

@@ -23,8 +23,8 @@ dependencies:
 library:
   source-dirs: src
   exposed-modules:
-    - XMonad.Config.Personal
+    - XMonad.MyLib
   other-modules:
-    - XMonad.Config.ScreenRatioDependentLayout
-    - XMonad.Config.ScratchpadHost
-    - XMonad.Config.ShiftFirstHalf
+    - XMonad.MyLib.ScreenRatioDependentLayout
+    - XMonad.MyLib.ScratchpadHost
+    - XMonad.MyLib.ShiftFirstHalf

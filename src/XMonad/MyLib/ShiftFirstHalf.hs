@@ -1,4 +1,4 @@
-module XMonad.Config.ShiftFirstHalf
+module XMonad.MyLib.ShiftFirstHalf
   ( ShiftFirstHalf (..)
   ) where
 import           Control.Arrow   (second)

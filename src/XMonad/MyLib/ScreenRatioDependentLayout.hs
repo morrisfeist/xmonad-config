@@ -1,4 +1,4 @@
-module XMonad.Config.ScreenRatioDependentLayout
+module XMonad.MyLib.ScreenRatioDependentLayout
   ( SRDL (..)
   , mkSRDL
   ) where
