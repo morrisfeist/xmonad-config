@@ -27,3 +27,4 @@ library:
   other-modules:
     - XMonad.Config.ScreenRatioDependentLayout
     - XMonad.Config.ScratchpadHost
+    - XMonad.Config.ShiftFirstHalf
